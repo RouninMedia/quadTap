@@ -47,7 +47,61 @@ ____
 ## CSS
 
 ```
+:root {
+  --fade-tap-count: none 0 linear none;
+}
 
+
+h1 {
+  margin: 100px 0;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255), 1px -1px 1px rgb(255, 255, 255), -1px -1px 1px rgb(255, 255, 255), -1px 1px 1px rgb(255, 255, 255);
+}
+
+.tapTarget {
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  background-color: rgb(191, 0, 0);
+  border: 2px solid rgb(127, 0, 0);
+  box-shadow: 0 0 6px rgb(63, 0, 0);
+  cursor: pointer;
+}
+
+.tapTarget::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96px;
+  height: 90px;
+  opacity: 1;
+}
+
+.tapTarget[data-tap-count]::after {
+  content: attr(data-tap-count);
+}
+
+.tapTarget.fadeTapCount::after {
+  animation: var(--fade-tap-count);
+}
+
+@keyframes fadeTapCount {
+
+    100% {opacity: 0;}
+}
 ```
 
 ____
