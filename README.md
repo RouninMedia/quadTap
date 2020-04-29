@@ -10,7 +10,7 @@ quadTap extends native DOM events `click` and `dblclick` to enable **multi-click
 
 To see a working example of **quadTap**, visit:
 
- - <a href="https://htmlpreview.github.io/?https://github.com/RouninMedia/quadTap/blob/master/all-in-one-quadtap.html" title="quadTap" target="_blank">quadTap</a>
+ - <a href="https://htmlpreview.github.io/?https://github.com/RouninMedia/quadTap/blob/master/quadtap.html" title="quadTap" target="_blank">quadTap</a>
  
 In the example setup you have **1.5 seconds** to tap on the `tapTarget` **4 times**.
 
