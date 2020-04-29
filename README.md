@@ -31,3 +31,29 @@ ______
  1. the number of taps required can be configured by setting the `requiredTaps` variable
  2. the duration of the time window can be configured by setting the `timeWindow` variable
  3. the callback function can be configured by rewriting the `requiredTapsCompleted()` function
+ 
+ _____
+
+## HTML
+
+```
+<h1>Tap the Target <span class="required-taps"></span> times<br />in <span class="time-window"></span> seconds</h1>
+
+<button type="button" class="tapTarget"></button>
+```
+
+____
+
+## CSS
+
+```
+
+```
+
+____
+
+## Javascript
+
+```
+
+```
