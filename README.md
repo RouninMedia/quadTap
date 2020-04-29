@@ -10,7 +10,7 @@ quadTap extends native DOM events `click` and `dblclick` to enable **multi-click
 
 To see a working example of **quadTap**, visit:
 
- -
+ - <a href="https://htmlpreview.github.io/?https://github.com/RouninMedia/css-inverse-text-and-background/blob/master/all-in-one-inverse.html" title="CSS Inverse Text and Background" target="_blank">CSS Inverse Text and Background</a>
  
 In the example setup you have **1.5 seconds** to tap on the `tapTarget` **4 times**.
 
